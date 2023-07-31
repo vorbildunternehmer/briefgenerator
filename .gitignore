@@ -1,0 +1,9 @@
+src/node_modules
+src/vendor
+src/composer.lock
+organisations/*
+!organisations/demo
+fonts/*
+!fonts/OpenSans
+Dockerfile
+docker-compose.yml

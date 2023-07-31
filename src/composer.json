@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mpdf/mpdf": "^8.1",
+        "erusev/parsedown": "^1.7",
+        "symfony/yaml": "^5.4"
+    }
+}

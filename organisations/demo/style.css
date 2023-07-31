@@ -1,0 +1,95 @@
+@page {
+    margin-top: 4.5cm;
+    margin-bottom: 2.5cm;
+    background: url('/organisations/demo/bg.png') no-repeat 0 0;
+    background-image-resize: 6;
+    footer: standard;
+    font-family: 'opensans';
+}
+
+.footer {
+  font-family: 'opensans';
+  font-size: 10pt;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.page {
+ font-family: 'opensans';
+ line-height: 2rem;
+}
+
+.page b, .page strong {
+  font-family: 'opensans';
+}
+
+.date {
+  position: absolute;
+  text-align: right;
+  right: 20mm;
+  top: 40mm;
+  font-family: 'opensans';
+}
+.totalpages {
+  position: absolute;
+  text-align: right;
+  right: 15mm;
+  top: 50mm;
+  font-size: .8rem;
+  font-family: 'opensans';
+}
+
+.address {
+  font-family: 'opensans';
+  line-height: 1.3rem;
+  padding-top: 2.5cm;
+  height: 4cm;
+}
+
+.address b, .address strong {
+  font-family: 'opensans';
+}
+
+.address em {
+  font-size: 0.6rem;
+  color: lightslategray;
+  font-family: 'opensans';
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'opensans';
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-bottom: 1mm solid black;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'opensans';
+  font-weight: bold;
+}
+
+.page table {
+  width: 100%;
+  background-color: #eee;
+  border-collapse: collapse;
+}
+.page table td, table tr{
+  padding: 2.5mm;
+  text-align: center;
+  font-family: 'opensans';
+}
+
+.page table th {
+  padding: 2.5mm;
+  border-bottom: 1px solid black;
+  font-family: 'opensans';
+  text-transform: uppercase;
+}
+
+table.footer {
+  color: #000;
+}
